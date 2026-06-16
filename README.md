@@ -12,22 +12,30 @@ Precise characterization of magnetic-field gradients is essential for reducing s
 
 ## Methods
 
-* Spherical harmonic basis functions
-* Generalized Linear Model (GLM) fitting
-* Bootstrap uncertainty estimation
-* Position uncertainty studies
+* Construction of spherical harmonic basis functions up to a selected maximum harmonic order, (l_{\max})
+* Determination of harmonic expansion coefficients (G_{l,m}) through linear least-squares fitting
+* Bootstrap resampling for statistical uncertainty estimation of the extracted coefficients
+* Position uncertainty studies, including:
 
   * Radial offsets
   * Azimuthal offsets
-  * Height offsets
-* False-EDM calculations
+  * Vertical (height) offsets
+* Evaluation of false-EDM systematic effects arising from magnetic-field gradients
 
-## Example Results
+## Results
 
-* Extraction of G_l,m coefficients up to selected harmonic order
-* Bootstrap uncertainty estimates for each coefficient
-* Sensitivity of gradients to position errors
-* False-EDM systematic estimates
+* Extraction of harmonic coefficients (G_{l,m}) up to a selected harmonic order (l_{\max})
+
+* Bootstrap uncertainty estimates reported as
+
+  (G_{l,m} \pm \sigma(G_{l,m}))
+
+* Quantification of the sensitivity of gradient coefficients to measurement-position uncertainties
+
+* Evaluation of systematic shifts associated with radial, azimuthal, and vertical position errors
+
+* Estimation of false-EDM contributions arising from magnetic-field nonuniformities
+
 
 ## Author
 
