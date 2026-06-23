@@ -1,1 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+jupyter
+notebook
+scikit-learn
+sympy
 
